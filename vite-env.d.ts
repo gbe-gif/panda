@@ -28,14 +28,6 @@ declare module '*.webp' {
   export default content;
 }
 
-// Support for process.env.API_KEY
-declare const process: {
-  env: {
-    API_KEY: string;
-    [key: string]: string | undefined;
-  }
-};
-
 interface ImportMetaEnv {
   [key: string]: any;
   BASE_URL: string;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MessageCircle, Gift, Lock, AlertCircle, EyeOff, Flame } from 'lucide-react';
+import { MessageCircle, Gift, Lock, AlertCircle, Flame } from 'lucide-react';
 
 const StoryMode: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'white' | 'black'>('white');
